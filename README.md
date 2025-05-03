@@ -4,10 +4,10 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
-  <a href="https://github.com/OWNER/REPO/stargazers"><img src="https://img.shields.io/github/stars/OWNER/REPO?style=flat&labelColor=1b1b1b&color=d85a30" alt="Stars"></a>
-  <a href="https://github.com/OWNER/REPO/network/members"><img src="https://img.shields.io/github/forks/OWNER/REPO?style=flat&labelColor=1b1b1b&color=c0417a" alt="Forks"></a>
-  <a href="https://github.com/OWNER/REPO/commits/main"><img src="https://img.shields.io/github/last-commit/OWNER/REPO?style=flat&labelColor=1b1b1b&color=1d9e75" alt="Last commit"></a>
-  <a href="https://github.com/OWNER/REPO/graphs/contributors"><img src="https://img.shields.io/github/contributors/OWNER/REPO?style=flat&labelColor=1b1b1b&color=378add" alt="Contributors"></a>
+  <a href="https://github.com/jskh-201910840/awesome-self-evolving-agents/stargazers"><img src="https://img.shields.io/github/stars/jskh-201910840/awesome-self-evolving-agents?style=flat&labelColor=1b1b1b&color=d85a30" alt="Stars"></a>
+  <a href="https://github.com/jskh-201910840/awesome-self-evolving-agents/network/members"><img src="https://img.shields.io/github/forks/jskh-201910840/awesome-self-evolving-agents?style=flat&labelColor=1b1b1b&color=c0417a" alt="Forks"></a>
+  <a href="https://github.com/jskh-201910840/awesome-self-evolving-agents/commits/main"><img src="https://img.shields.io/github/last-commit/jskh-201910840/awesome-self-evolving-agents?style=flat&labelColor=1b1b1b&color=1d9e75" alt="Last commit"></a>
+  <a href="https://github.com/jskh-201910840/awesome-self-evolving-agents/graphs/contributors"><img src="https://img.shields.io/github/contributors/jskh-201910840/awesome-self-evolving-agents?style=flat&labelColor=1b1b1b&color=378add" alt="Contributors"></a>
 </p>
 
 <p align="center">
@@ -383,8 +383,8 @@ Found something wrong or missing? Corrections are the most welcome PRs of all â€
 ## Star history
 
 <p align="center">
-  <a href="https://star-history.com/#OWNER/REPO&Date">
-    <img src="https://api.star-history.com/svg?repos=OWNER/REPO&type=Date" alt="Star history chart" width="620">
+  <a href="https://star-history.com/#jskh-201910840/awesome-self-evolving-agents&Date">
+    <img src="https://api.star-history.com/svg?repos=jskh-201910840/awesome-self-evolving-agents&type=Date" alt="Star history chart" width="620">
   </a>
 </p>
 

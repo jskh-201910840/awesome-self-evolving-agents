@@ -3,10 +3,10 @@ title: "Awesome Self-Evolving Agents"
 message: "If this list helped your work, please consider citing or starring it."
 type: dataset
 authors:
-  - family-names: "YOUR_LAST_NAME"
-    given-names: "YOUR_FIRST_NAME"
-repository-code: "https://github.com/OWNER/REPO"
-url: "https://github.com/OWNER/REPO"
+  - family-names: "psukojim"
+    given-names: "psukojim"
+repository-code: "https://github.com/jskh-201910840/awesome-self-evolving-agents"
+url: "https://github.com/jskh-201910840/awesome-self-evolving-agents"
 abstract: >-
   A curated, opinionated map of self-evolving and self-improving LLM agents:
   automated agent/workflow design, test-time learning, evolving memory, skill
