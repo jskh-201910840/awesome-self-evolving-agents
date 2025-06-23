@@ -3,7 +3,7 @@
 # Usage:
 #   ./push.sh <github-username> <repo-name> ["Your Name"] [you@email.com]
 # Example:
-#   ./push.sh alice awesome-self-evolving-agents "Alice Kim" alice@example.com
+#   ./push.sh sukoji awesome-self-evolving-agents "Suko Jim" sukoji@users.noreply.github.com
 #
 # Prereqs: create an EMPTY repo on GitHub first (no README/license), and have
 # git authentication set up (gh auth login, or a credential helper / PAT).
