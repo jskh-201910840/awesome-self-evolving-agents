@@ -18,6 +18,8 @@
     </style>
   </defs>
 
+  <!-- centered content block -->
+  <g transform="translate(161,0)">
   <!-- evolving-graph motif with a gently pulsing active node -->
   <g transform="translate(58,60)">
     <path class="edge" d="M16 16 H96 M96 16 V64 M96 64 H16 M16 64 V28" />
@@ -39,4 +41,5 @@
   <rect x="182" y="116" width="330" height="3" rx="1.5" fill="url(#rule)"/>
   <text class="sub" x="182" y="146">Agents that improve themselves — and the ways that quietly goes wrong.</text>
   <text class="sub" x="182" y="168">Curated papers · a runnable primer · a hard look at failure &amp; safety.</text>
+  </g>
 </svg>
