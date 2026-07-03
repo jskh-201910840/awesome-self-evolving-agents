@@ -1,0 +1,77 @@
+name: Suggest a community project
+description: Propose an open-source repo for COMMUNITY.md (frameworks, harnesses, benchmarks)
+title: "[Project] "
+labels: ["community", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Community spotlight** = runnable repos and tools, not papers.  
+        See [COMMUNITY.md](../COMMUNITY.md) and [contributing guide](../docs/contributing-guide.md).
+
+  - type: input
+    id: repo
+    attributes:
+      label: Repository URL
+      placeholder: "https://github.com/org/repo"
+    validations:
+      required: true
+
+  - type: input
+    id: author
+    attributes:
+      label: Author / org (GitHub handle or name)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: pathway
+    attributes:
+      label: Primary evolution pathway
+      options:
+        - model
+        - memory
+        - tool
+        - workflow
+        - "— (benchmark / eval only)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: COMMUNITY.md section
+      options:
+        - Harnesses & agent runtimes
+        - Design-as-search & meta-agents
+        - Benchmarks & eval harnesses
+        - Safety, memory & monitoring
+        - Curated lists & reading logs
+        - Unsure
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: One neutral sentence
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: Repo is public and has had activity in the last ~6 months (or a tagged release)
+          required: true
+        - label: Project implements or evaluates self-evolution (not a static agent demo)
+          required: true
+        - label: I am okay with maintainers editing the wording for neutrality
+          required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be on the list?
+      description: What makes it distinct from entries already listed?

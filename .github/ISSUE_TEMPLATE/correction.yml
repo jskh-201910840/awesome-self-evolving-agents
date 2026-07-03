@@ -1,0 +1,40 @@
+name: Correction
+description: Fix a wrong link, attribution, section, or typo
+title: "[Fix] "
+labels: ["correction", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Corrections are the **most valuable** contributions. Thank you.
+
+  - type: textarea
+    id: location
+    attributes:
+      label: Where is the error?
+      description: README.md or COMMUNITY.md — paste the line or link to the section heading.
+      placeholder: "README.md → Safety section → Misevolution entry"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What is wrong now?
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix
+    attributes:
+      label: What should it say instead?
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: pr
+    attributes:
+      label: Can you open a PR?
+      options:
+        - label: I can open a PR with this fix (preferred)
+        - label: I need a maintainer to apply the fix

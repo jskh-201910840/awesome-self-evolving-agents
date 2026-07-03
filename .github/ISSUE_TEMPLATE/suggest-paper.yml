@@ -1,0 +1,81 @@
+name: Suggest a paper
+description: Propose a self-evolving agent paper for the main reading list (README.md)
+title: "[Paper] "
+labels: ["paper", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep this list accurate. Please read [CONTRIBUTING.md](../CONTRIBUTING.md) first.
+        **One paper per issue** — maintainers may ask you to open a PR with the formatted entry.
+
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+      placeholder: "Reflexion: Language Agents with Verbal Reinforcement Learning"
+    validations:
+      required: true
+
+  - type: input
+    id: venue
+    attributes:
+      label: Venue and year
+      placeholder: "NeurIPS 2023"
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: Stable link (arXiv, OpenReview, DOI)
+      placeholder: "https://arxiv.org/abs/2303.11366"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Primary README section
+      options:
+        - Surveys and roadmaps
+        - Foundations and precursors
+        - Automated and self-evolving system design
+        - Test-time learning and self-improvement
+        - Memory: non-parametric to parametric
+        - Experience-driven lifelong learning and skills
+        - Reinforcement learning for self-evolution
+        - Multi-agent co-evolution
+        - Why they fail: failure analysis and attribution
+        - Safety: misevolution and defenses
+        - Benchmarks and environments
+        - Interoperability protocols
+        - Domain applications
+        - Unsure — need maintainer help
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: One neutral sentence (what the system does)
+      description: No hype words — describe the mechanism.
+      placeholder: "Stores verbal self-reflection across episodes without weight updates."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: The agent's behavior-generating machinery changes over time from its own operation
+          required: true
+        - label: I verified the link resolves to the correct paper
+          required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Optional notes
+      description: Relation to existing entries, why it belongs here, etc.

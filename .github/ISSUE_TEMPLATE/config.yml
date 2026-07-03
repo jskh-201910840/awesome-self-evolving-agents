@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contributing guide
+    url: https://github.com/sukoji/awesome-self-evolving-agents/blob/main/docs/contributing-guide.md
+    about: Step-by-step instructions for papers, projects, and corrections
+  - name: Community spotlight
+    url: https://github.com/sukoji/awesome-self-evolving-agents/blob/main/COMMUNITY.md
+    about: Open-source projects and harnesses (not papers)

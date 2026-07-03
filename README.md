@@ -4,8 +4,8 @@
 
 <p align="center">
   <a href="https://awesome.re"><img src="https://awesome.re/badge-flat2.svg" alt="Awesome"></a>
-  <a href="https://github.com/sukoji/awesome-self-evolving-agents/stargazers"><img src="https://img.shields.io/github/stars/sukoji/awesome-self-evolving-agents?style=flat&labelColor=1b1b1b&color=d85a30" alt="Stars"></a>
-  <a href="https://github.com/sukoji/awesome-self-evolving-agents/network/members"><img src="https://img.shields.io/github/forks/sukoji/awesome-self-evolving-agents?style=flat&labelColor=1b1b1b&color=c0417a" alt="Forks"></a>
+  <a href="https://github.com/sukoji/awesome-self-evolving-agents/stargazers"><img src="https://img.shields.io/github/stars/sukoji/awesome-self-evolving-agents?logo=github&logoColor=white&style=flat&labelColor=1b1b1b&color=d85a30" alt="Stars"></a>
+  <a href="https://github.com/sukoji/awesome-self-evolving-agents/network/members"><img src="https://img.shields.io/github/forks/sukoji/awesome-self-evolving-agents?logo=github&logoColor=white&style=flat&labelColor=1b1b1b&color=c0417a" alt="Forks"></a>
   <a href="https://github.com/sukoji/awesome-self-evolving-agents/commits/main"><img src="https://img.shields.io/github/last-commit/sukoji/awesome-self-evolving-agents?style=flat&labelColor=1b1b1b&color=1d9e75" alt="Last commit"></a>
   <a href="https://github.com/sukoji/awesome-self-evolving-agents/graphs/contributors"><img src="https://img.shields.io/github/contributors/sukoji/awesome-self-evolving-agents?style=flat&labelColor=1b1b1b&color=378add" alt="Contributors"></a>
 </p>
@@ -13,20 +13,24 @@
 <p align="center">
   <img src="https://img.shields.io/badge/papers-90+-8a63d2?style=flat&labelColor=1b1b1b" alt="90+ papers">
   <img src="https://img.shields.io/badge/topics-13-1d9e75?style=flat&labelColor=1b1b1b" alt="13 topics">
+  <a href="COMMUNITY.md"><img src="https://img.shields.io/badge/community_projects-15+-c0417a?style=flat&labelColor=1b1b1b" alt="Community projects"></a>
   <a href="#reference-implementations"><img src="https://img.shields.io/badge/code-runnable-d85a30?style=flat&labelColor=1b1b1b" alt="Runnable code"></a>
+  <a href="https://github.com/sukoji/awesome-self-evolving-agents/issues/new/choose"><img src="https://img.shields.io/badge/suggest-paper_or_project-issue-378add?style=flat&labelColor=1b1b1b" alt="Suggest via issue"></a>
   <a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat&labelColor=1b1b1b" alt="PRs welcome"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC0%201.0-lightgrey?style=flat&labelColor=1b1b1b" alt="License: CC0-1.0"></a>
 </p>
 
 <p align="center">
-  <sub><b>90+ papers</b> across <b>13 topics</b> · <b>2 runnable demos</b> · reviewed monthly · last pass <b>2026-07</b></sub>
+  <sub><b>90+ papers</b> across <b>13 topics</b> · <b>15+ community projects</b> · <b>2 runnable demos</b> · reviewed monthly · last pass <b>2026-07</b></sub>
 </p>
 
 <p align="center">
   <a href="docs/primer.md">Primer</a> ·
   <a href="#the-four-evolution-pathways">Taxonomy</a> ·
   <a href="#safety-misevolution-and-defenses">Safety</a> ·
+  <a href="#community-spotlight">Community</a> ·
   <a href="#reference-implementations">Code</a> ·
+  <a href="docs/contributing-guide.md">Contribute</a> ·
   <a href="#a-reading-path">Reading path</a> ·
   <a href="#updates">Updates</a>
 </p>
@@ -57,6 +61,7 @@ If you read one thing first, read the [**primer**](docs/primer.md). If you run o
 - [Benchmarks and environments](#benchmarks-and-environments)
 - [Interoperability protocols](#interoperability-protocols)
 - [Domain applications](#domain-applications)
+- [Community spotlight](#community-spotlight)
 - [Reference implementations](#reference-implementations)
 - [A reading path](#a-reading-path)
 - [Updates](#updates)
@@ -306,6 +311,28 @@ Self-evolution grounded in a specific domain, useful as end-to-end case studies.
 
 ---
 
+## Community spotlight
+
+Papers are the spine of this repo; **open-source projects** are the hands. [`COMMUNITY.md`](COMMUNITY.md) is a community-maintained board of harnesses, design-as-search stacks, benchmarks, and safety tooling — separate from the reading list so you can jump straight to code.
+
+<p align="center">
+  <a href="https://github.com/OpenHands/OpenHands"><img src="https://img.shields.io/badge/OpenHands-harness-d85a30?style=flat&labelColor=1b1b1b" alt="OpenHands"></a>
+  <a href="https://github.com/stanfordnlp/dspy"><img src="https://img.shields.io/badge/DSPy-compile_&_optimize-8a63d2?style=flat&labelColor=1b1b1b" alt="DSPy"></a>
+  <a href="https://github.com/FoundationAgents/aflow"><img src="https://img.shields.io/badge/AFlow-workflow_search-1d9e75?style=flat&labelColor=1b1b1b" alt="AFlow"></a>
+  <a href="https://github.com/THUDM/AgentBench"><img src="https://img.shields.io/badge/AgentBench-eval-378add?style=flat&labelColor=1b1b1b" alt="AgentBench"></a>
+  <a href="https://github.com/ai-safety-institute/AgentHarm"><img src="https://img.shields.io/badge/AgentHarm-safety-c0417a?style=flat&labelColor=1b1b1b" alt="AgentHarm"></a>
+  <a href="COMMUNITY.md"><img src="https://img.shields.io/badge/→_full_board-15+_projects-1b1b1b?style=flat&labelColor=1b1b1b&color=666" alt="Full community board"></a>
+</p>
+
+| | |
+|---|---|
+| **Add yours** | [Suggest a project (issue)](https://github.com/sukoji/awesome-self-evolving-agents/issues/new?template=suggest-project.yml) · [PR to COMMUNITY.md](COMMUNITY.md) · [guide](docs/contributing-guide.md#adding-a-community-project-communitymd) |
+| **Recently merged** | See [Recently added](COMMUNITY.md#recently-added) — new entries stay visible for one month |
+
+> **Papers →** `README.md` &nbsp;·&nbsp; **Repos & tools →** `COMMUNITY.md` &nbsp;·&nbsp; **Corrections →** always welcome, always fast-tracked
+
+---
+
 ## Reference implementations
 
 Two small, dependency-light programs that make the core ideas concrete. Both are offline and deterministic; each is structured so a real LLM call drops into a single clearly marked method.
@@ -358,6 +385,7 @@ See [`docs/primer.md`](docs/primer.md) for a line-by-line reading of `safety_gat
 
 A running log so you can see what changed without diffing. Newest first.
 
+- **2026-07** — Community layer: [`COMMUNITY.md`](COMMUNITY.md) project board, [contributing guide](docs/contributing-guide.md), issue/PR templates, and spotlight strip above.
 - **2026-07** — Initial public release: 90+ papers across 13 topics, four-pathway taxonomy, misevolution safety section, primer, and two runnable reference implementations.
 
 > Watching the repo (top-right of the page) is the reliable way to get these — the `last-commit` badge above updates on every merge.
@@ -400,7 +428,17 @@ If a paper here is mis-attributed or missing a stable link, that is on this list
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Short version: one entry per PR, a single neutral sentence describing what the work *does* (not how good it is), a verifiable link, and the right section. Entries without a checkable source get a `needs-link` note rather than a fabricated ID.
+This list is maintained by the community. Pick your lane:
+
+| Contribution | Where | How |
+|---|---|---|
+| **Paper** | `README.md` | [Suggest paper](https://github.com/sukoji/awesome-self-evolving-agents/issues/new?template=suggest-paper.yml) or PR |
+| **OSS project / benchmark** | [`COMMUNITY.md`](COMMUNITY.md) | [Suggest project](https://github.com/sukoji/awesome-self-evolving-agents/issues/new?template=suggest-project.yml) or PR |
+| **Fix** | either file | [Correction issue](https://github.com/sukoji/awesome-self-evolving-agents/issues/new?template=correction.yml) — fastest merge |
+
+Full walkthrough: [docs/contributing-guide.md](docs/contributing-guide.md) · rubric: [CONTRIBUTING.md](CONTRIBUTING.md) · conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+
+Short version: **one entry per PR**, one neutral sentence, verifiable link (or explicit `needs-link`), correct section/pathway tag.
 
 ## License
 
